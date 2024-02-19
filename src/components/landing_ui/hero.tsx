@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
 
 
-          <Button link="/work" title="Components"/>
+          <Button link="/components" title="Components"/>
         </div>
       </div>
   );
