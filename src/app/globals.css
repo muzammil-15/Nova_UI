@@ -74,3 +74,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.text_primary {
+  color: #0F172A;
+}
+.bg_primary {
+  background-color: #0F172A;
+}
+body{
+  background-color: #FFFFFF;
+}

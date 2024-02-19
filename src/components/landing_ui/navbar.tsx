@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="max-w-screen-xl  flex items-center justify-between mx-auto p-4">
         <Link
           href="/"
-          className="flex items-center space-x-3 rtl:space-x-reverse text-xl md:text-3xl font-[800] text-[#0F172A]"
+          className="flex items-center space-x-3 rtl:space-x-reverse text-xl md:text-3xl font-[800] text_primary"
         >
           NovaUI
         </Link>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/"
-                className="block py-2 px-3  rounded    text-[#0F172A] hover:text-[#020508]"
+                className="block py-2 px-3  rounded    text_primary hover:text-[#020508] hover:bg-[#0f172a15]"
               >
                 Home
               </Link>
@@ -70,7 +70,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/getting-started"
-                className="block py-2 px-3  rounded    text-[#0F172A] hover:text-[#020508] "
+                className="block py-2 px-3  rounded    text_primary hover:text-[#020508] hover:bg-[#0f172a15]"
               >
                 Getting Started
               </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/components"
-                className="block py-2 px-3  rounded-[30px]   text-[#0F172A] hover:text-[#020508]   "
+                className="block py-2 px-3  rounded  text_primary hover:text-[#020508]   hover:bg-[#0f172a15]"
               >
                 Components
               </Link>
