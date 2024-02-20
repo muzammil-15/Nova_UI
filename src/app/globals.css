@@ -81,6 +81,9 @@
 .bg_primary {
   background-color: #0F172A;
 }
+.bg_primary:hover {
+  background-color: #151f36;
+}
 body{
   background-color: #FFFFFF;
 }

@@ -32,6 +32,7 @@ export default function Home() {
           <h3>Example:</h3>
           <CodeSnippet code={codeExample1} language="html"/>
       </div>
+
     </main>
   );
 }
