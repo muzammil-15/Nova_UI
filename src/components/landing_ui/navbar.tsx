@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky top-0 left-0 shadow-lg z-[100]">
+    <nav className="sticky top-0 left-0 shadow-lg z-[100] bg-white">
       <div className="max-w-screen-xl  flex items-center justify-between mx-auto p-4">
         <Link
           href="/"
@@ -54,7 +54,7 @@ const Navbar = () => {
         </button>
         <div
           className={` md:flex md:w-auto ${
-            isMenuOpen ? "block absolute top-20 right-10 rounded-lg w-[180px] shadow-md" : "hidden bg-transparent"
+            isMenuOpen ? "block absolute bg-white top-20 right-10 rounded-lg w-[180px] shadow-md" : "hidden "
           }`}
           
         >
