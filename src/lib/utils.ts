@@ -26,3 +26,38 @@ export const codeExample1 = `<div className="flex flex-col space-y-2 md:flex-row
     Button text
   </button>
 </div>`
+
+export const components = [
+  {
+    label: 'Avatar',
+    href: '/components/avatar',
+  },
+  {
+    label: 'Button',
+    href: '/components/button',
+
+  },
+  {
+    label: 'Cards',
+    href: '/components/cards',
+  },
+  {
+    label: 'Badges',
+    href: '/components/badges',
+  },
+  {
+    label: 'Navbar',
+
+    href: '/components/navbar',
+  },
+  {
+    label: 'Footer',
+    href: '/components/footer',
+  },
+  {
+    label: 'Carousel',
+    href: '/components/carousel',
+  },
+  
+  
+];

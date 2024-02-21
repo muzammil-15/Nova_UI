@@ -1,5 +1,5 @@
 import Hero from "@/components/landing_ui/hero";
-import { Button } from "@/components/ui/button";
+
 
 
 export default function Home() {

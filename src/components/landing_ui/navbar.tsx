@@ -1,10 +1,9 @@
 "use client";
 
+import { Rocket } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
-
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -25,6 +24,7 @@ const Navbar = () => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse text-xl md:text-3xl font-[800] text_primary"
         >
+            <Rocket size={40} color="#FFFFFF" strokeWidth={2} className="bg_primary p-1 rounded-md mr-2"/>
           NovaUI
         </Link>
         <button
@@ -54,9 +54,10 @@ const Navbar = () => {
         </button>
         <div
           className={` md:flex md:w-auto ${
-            isMenuOpen ? "block absolute bg-white top-20 right-10 rounded-lg w-[180px] shadow-md" : "hidden "
+            isMenuOpen
+              ? "block absolute bg-white top-20 right-10 rounded-lg w-[180px] shadow-md"
+              : "hidden "
           }`}
-          
         >
           <ul className="text-[16px] font-[500] flex flex-col p-4 md:p-0   md:flex-row md:space-x-8  ">
             <li>
@@ -69,7 +70,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/getting-started"
+                href="/docs"
                 className="block py-2 px-3  rounded    text_primary hover:text-[#020508] hover:bg-[#0f172a15]"
               >
                 Getting Started
@@ -83,7 +84,6 @@ const Navbar = () => {
                 Components
               </Link>
             </li>
-            
           </ul>
         </div>
       </div>
