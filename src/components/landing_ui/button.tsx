@@ -6,7 +6,7 @@ const Button = ({link, title }:{
     link: string
   } ) => {
   return (
-    <Link href={link} className='flex justify-center w-max items-center py-3 px-6 rounded-xl bg_primary text-white hover:text-gray-300 '>
+    <Link href={link} className='flex justify-center w-max items-center text-sm md:text-lg font-semibold py-3 px-6 rounded-full text-[#0F172A] bg-[#c0a99d] shadow-lg '>
       {title}
     </Link>
   )

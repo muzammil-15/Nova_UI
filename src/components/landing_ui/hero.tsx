@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="text-3xl md:text-6xl text-center font-[700] heading w-[80%] text_primary" >
           Build Accessible React Apps the Easy Way with Nova UI
           </h1>
-          <p className="font-[500] text-base md:text-lg  text-center w-[70%]">
+          <p className="font-[500] text-base md:text-lg  text-center w-[70%] text_primary">
           Craft Stunning Apps in a Flash: Ditch tedious development with Nova UI's vast library of ready-to-use components. Save time, focus on unique layouts and interactions, and let Nova UI deliver consistent design and behavior across your React app.
           </p>
 

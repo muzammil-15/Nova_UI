@@ -77,6 +77,7 @@
 
 .text_primary {
   color: #0F172A;
+  color: #c0a99d;
 }
 .bg_primary {
   background-color: #0F172A;
@@ -86,4 +87,5 @@
 }
 body{
   background-color: #FFFFFF;
+  background-color: #111827;
 }

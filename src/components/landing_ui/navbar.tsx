@@ -18,13 +18,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky top-0 left-0 shadow-lg z-[100] bg-white">
+    <nav className="sticky top-0 left-0 shadow-lg z-[100] bg-[#111827fa]">
       <div className="max-w-screen-xl  flex items-center justify-between mx-auto p-4">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse text-xl md:text-3xl font-[800] text_primary"
         >
-            <Rocket size={40} color="#FFFFFF" strokeWidth={2} className="bg_primary p-1 rounded-md mr-2"/>
+            <Rocket size={40} color="#c0a99d" strokeWidth={2} className="bg_primary p-1 rounded-md mr-2"/>
           NovaUI
         </Link>
         <button
@@ -55,7 +55,7 @@ const Navbar = () => {
         <div
           className={` md:flex md:w-auto ${
             isMenuOpen
-              ? "block absolute bg-white top-20 right-10 rounded-lg w-[180px] shadow-md"
+              ? "block absolute bg-[#091025] top-20 right-10 rounded-lg w-[180px] shadow-md"
               : "hidden "
           }`}
         >
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/"
-                className="block py-2 px-3  rounded    text_primary hover:text-[#020508] hover:bg-[#0f172a15]"
+                className="block py-2 px-3  rounded    text_primary hover:text-[#FFFFFF] "
               >
                 Home
               </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/docs"
-                className="block py-2 px-3  rounded    text_primary hover:text-[#020508] hover:bg-[#0f172a15]"
+                className="block py-2 px-3  rounded    text_primary hover:text-[#FFFFFF] "
               >
                 Getting Started
               </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/components"
-                className="block py-2 px-3  rounded  text_primary hover:text-[#020508]   hover:bg-[#0f172a15]"
+                className="block py-2 px-3  rounded  text_primary hover:text-[#FFFFFF] "
               >
                 Components
               </Link>

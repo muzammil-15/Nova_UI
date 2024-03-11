@@ -29,7 +29,7 @@ export default function Home() {
             Shadcn UI
           </Link>{" "}. NovaUI provides ready-to-use components that you can directly copy and paste into your react code. Each component has specific attributes for customization, ensuring a seamless integration into your applications.</p>
 
-          <h3>Example:</h3>
+          <h3 className="text_primary font-bold text-lg">Example:</h3>
           <CodeSnippet code={codeExample1} language="html"/>
       </div>
 
