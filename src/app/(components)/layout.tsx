@@ -15,11 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-        <main className="h-full relative bg-[#F6F7F9]">
-        <div className="hidden h-full w-52 md:flex  md:flex-col md:fixed md:inset-y-0 z-80">
+        <main className="h-full relative ">
+        <div className="hidden h-full w-72 md:flex  md:flex-col md:fixed md:inset-y-0 z-80">
             <Sidebar />
           </div>
-          <div className="md:pl-52 pb-10">
+          <div className="md:pl-72 pb-10">
             {children}    
           </div>
         </main>

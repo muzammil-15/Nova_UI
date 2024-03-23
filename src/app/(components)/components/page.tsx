@@ -1,6 +1,6 @@
 const ComponentPage = () => {
   return (
-    <div>ComponentPage</div>
+    <div className=""></div>
   )
 }
 

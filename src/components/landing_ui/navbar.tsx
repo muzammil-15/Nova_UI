@@ -18,7 +18,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="sticky top-0 left-0 shadow-lg z-[100] bg-[#111827fa]">
+    <nav className="sticky top-0 left-0 shadow-lg z-[100] bg-[#111827fa] border-b border-gray-800">
       <div className="max-w-screen-xl  flex items-center justify-between mx-auto p-4">
         <Link
           href="/"
